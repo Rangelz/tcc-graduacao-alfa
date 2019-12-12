@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  webserver:
+    build:
+      context: ./bin
+    container_name: 'tcc'
+    ports:
+      - "8081:80"
+      - "444:443"
+    volumes: 
+      - .:/var/www/html

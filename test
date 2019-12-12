@@ -1,0 +1,4 @@
+Questionamento de estoque negativo de estoque -> estoque virtual pode nao bater com o fisico,
+ eo cliente(usuario do sistema) nao deseja ser impedido de realizar vendas por estoque nao esta regularizado ainda.
+Questionamento de venda por cpf -> pra nao perder a venda sera permitido a venda pra cpf invalido.
+Questionamento de compra por cnpj -> alguns fornecedores nao tem empresa registrada e nao contem cnpj.
